@@ -1,0 +1,15 @@
+platform :ios, '10.3’
+use_frameworks!
+
+def pods 
+	pod 'Dip', '~> 7.0.0’
+    	pod 'SnapKit', '~> 4.0.0'
+  	pod 'GoogleMaps'
+  	pod 'GooglePlaces'
+
+end
+
+
+target 'GlovoTest' do
+	pods
+end
